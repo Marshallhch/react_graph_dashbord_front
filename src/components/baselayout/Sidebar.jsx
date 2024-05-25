@@ -12,15 +12,15 @@ const Sidebar = () => {
   const isSidebarOpen = useSelector((state) => state.sidebar.isSidebarOpen);
   const dispatch = useDispatch();
 
-  console.log(isSidebarOpen);
+  // console.log(isSidebarOpen);
 
   const selectMenuHandler = (index) => {
     clickedTab(index);
   };
   return (
     <div
-      className={`bg-gray-950 py-5 px-4 shadow-[0_0.125rem_0.25rem_rgba(255,255,255,0.3)] w-[260px] flex flex-col rounded-e-lg z-[1000] transition ease-in-out delay-300 fixed h-screen ${
-        isSidebarOpen ? 'left-[-260px]' : 'left-260'
+      className={`dark:bg-gray-950 bg-white py-5 px-4 dark:shadow-[0_0.125rem_0.25rem_rgba(255,255,255,0.3)] shadow-[0_0.125rem_0.25rem_rgba(165,163,174,0.3)] w-[20%] flex flex-col rounded-sm z-[1000] fixed h-screen ${
+        isSidebarOpen ? 'left-[-20%]' : 'left-0'
       }`}
     >
       <div className="sidebar-top mb-[32px] flex items-center justify-between">
@@ -28,7 +28,7 @@ const Sidebar = () => {
           <span className="brand-logo bg-blue-700 rounded-md w-8 h-8 flex place-content-center">
             <img src={Icons.LogoWhite} alt="site brand logo" className="w-6" />
           </span>
-          <span className="brand-text text-lg font-semibold text-white">
+          <span className="brand-text text-lg font-semibold dark:text-white text-gray-950">
             Marshall
           </span>
         </div>
@@ -55,7 +55,7 @@ const Sidebar = () => {
                     to={routes[index].path}
                     className={`menu-link h-[44px] flex items-center gap-x-[14px] py-0.5 px-5 font-medium ${
                       index === currentTab
-                        ? 'bg-blue-700 text-white rounded-sm'
+                        ? 'bg-blue-700 dark:text-white text-gray-950 rounded-sm'
                         : ''
                     }`}
                     onClick={() => selectMenuHandler(index)}
@@ -69,7 +69,11 @@ const Sidebar = () => {
                     >
                       <img src={menu.icon} alt={menu.alt} />
                     </span>
-                    <span className="menu-link-text text-white">
+                    <span
+                      className={`menu-link-text ${
+                        index === currentTab ? 'text-white dark:text-white' : ''
+                      }`}
+                    >
                       {menu.title}
                     </span>
                   </Link>
