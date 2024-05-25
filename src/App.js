@@ -1,23 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
+import Sidebar from './components/baselayout/Sidebar';
+// import ModeCtrl from './components/ModeCtrl';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App w-screen h-screen flex items-center justify-center flex-col dark:bg-black dark:text-white">
+      <div className="page-wrapper min-h-screen flex w-full">
+        <Sidebar />
+      </div>
     </div>
   );
 }
