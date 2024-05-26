@@ -75,3 +75,30 @@ export const routes = [
     element: '',
   },
 ];
+
+export const SALES_LISTS = [
+  {
+    src: Icons.CardSales,
+    value: '$1k',
+    title: 'Total Sales',
+    text: '+8% from yesterday',
+  },
+  {
+    src: Icons.CardOrder,
+    value: '300',
+    title: 'Total Order',
+    text: '+5% from yesterday',
+  },
+  {
+    src: Icons.CardProduct,
+    value: '5',
+    title: 'Products Sold',
+    text: '+1.2% from yesterday',
+  },
+  {
+    src: Icons.CardCustomer,
+    value: '8',
+    title: 'New Customers',
+    text: '+0.5% from yesterday',
+  },
+];

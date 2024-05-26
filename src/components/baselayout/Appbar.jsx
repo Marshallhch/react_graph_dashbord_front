@@ -7,7 +7,7 @@ import AppbarProfile from './AppbarProfile';
 
 const Appbar = () => {
   return (
-    <div className="dark:shadow-[0_0.125rem_0.25rem_rgba(255,255,255,0.3)] shadow-[0_0.125rem_0.25rem_rgba(165,163,174,0.3)] py-3 px-6 rounded-sm dark:bg-gray-950 bg-white dark:text-white text-gray-950 w-[calc(80%-28px)] ml-[calc(20%+14px)]">
+    <div className="dark:shadow-[0_0_0.25rem_rgba(255,255,255,0.3)] shadow-[0_0_0.25rem_rgba(165,163,174,0.3)] py-3 px-6 rounded-sm dark:bg-gray-950 bg-white dark:text-white text-gray-950 w-[calc(80%-28px)] ml-[calc(20%+14px)]">
       <div className="appbar-content flex items-center justify-between flex-wrap">
         <div className="appbar-left flex items-center justify-start gap-x-3">
           <button

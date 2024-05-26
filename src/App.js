@@ -1,6 +1,7 @@
 import './App.css';
 import Appbar from './components/baselayout/Appbar';
 import Sidebar from './components/baselayout/Sidebar';
+import DashboardScreen from './components/dashboard/DashboardScreen';
 // import ModeCtrl from './components/ModeCtrl';
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
         <Sidebar />
         <div className="content-wrapper w-full">
           <Appbar />
+          <DashboardScreen />
         </div>
       </div>
     </div>
