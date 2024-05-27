@@ -1,4 +1,7 @@
 const REST_COUNTRIES_API_URL =
   'https://restcountries.com/v3.1/all?fields=name,flags,languages';
 
-export default REST_COUNTRIES_API_URL;
+const GET_VISITORS_API_URL = 'http://localhost:3001/visitors';
+const GET_CUSTOMERS_API_URL = 'http://localhost:3001/customers';
+
+export { GET_CUSTOMERS_API_URL, GET_VISITORS_API_URL, REST_COUNTRIES_API_URL };

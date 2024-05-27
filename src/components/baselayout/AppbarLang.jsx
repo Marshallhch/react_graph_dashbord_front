@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
 import axios from 'axios';
-import REST_COUNTRY_API_URL from '../../constants/apiUrl';
+import { REST_COUNTRIES_API_URL } from '../../constants/apiUrl';
 import { Icons } from '../../assets/icons';
 
 const AppbarLang = () => {
@@ -38,7 +38,7 @@ const AppbarLang = () => {
   useEffect(() => {
     const fetchCountryData = async () => {
       try {
-        const response = await axios.get(REST_COUNTRY_API_URL);
+        const response = await axios.get(REST_COUNTRIES_API_URL);
         // console.log(response);
         const sortedCountries = response.data.sort((a, b) =>
           a.name.common.localeCompare(b.name)
