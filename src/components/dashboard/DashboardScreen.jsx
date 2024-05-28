@@ -1,6 +1,8 @@
 import React from 'react';
 import Sales from './Sales';
 import Visitors from './Visitors';
+import TotalRevenue from './TotalRevenue';
+import Customer from './Customer';
 
 const DashboardScreen = () => {
   return (
@@ -9,7 +11,10 @@ const DashboardScreen = () => {
         <Sales />
         <Visitors />
       </div>
-      <div className="area-row ar-two"></div>
+      <div className="area-row ar-two grid grid-cols-[3fr_2fr_2fr]">
+        <TotalRevenue />
+        <Customer />
+      </div>
     </div>
   );
 };

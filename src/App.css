@@ -94,7 +94,7 @@ a {
 
   .recharts-legend-item {
       display: inline-flex !important;
-      align-items: flex-start!important;
+      align-items: center!important;
   }
 
   .recharts-legend-item-text {
@@ -102,4 +102,5 @@ a {
     color: #a5a3ae !important;
     padding-left: 4px;
     font-size: 14px;
+    margin-top:5px;
   }
