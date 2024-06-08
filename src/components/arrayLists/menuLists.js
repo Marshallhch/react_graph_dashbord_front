@@ -102,3 +102,27 @@ export const SALES_LISTS = [
     text: '+0.5% from yesterday',
   },
 ];
+
+export const TARGET_REALITY_LISTS = [
+  {
+    title: 'Reality Sales',
+    value: '8.823',
+    icon: Icons.BagGreen,
+    subtitle: 'Global',
+  },
+  {
+    title: 'Target Sales',
+    value: '12.122',
+    icon: Icons.TicketYellow,
+    subtitle: 'Commercial',
+  },
+];
+
+// Mapping of color names to their respective hex codes
+export const COLOR_MAP = {
+  red: '#ef4444',
+  violet: '#a700ff',
+  dodgerBlue: '#0095ff',
+  emerald: '#00e096',
+  yellow: '#ffcf00',
+};
