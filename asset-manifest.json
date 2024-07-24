@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/react_graph_dashbord_front/static/css/main.60a853b6.css",
+    "main.js": "/react_graph_dashbord_front/static/js/main.9114b0d0.js",
+    "static/media/profile_image.png": "/react_graph_dashbord_front/static/media/profile_image.ab45eb1d42b1faaf3d12.png",
+    "static/media/usa_flag.png": "/react_graph_dashbord_front/static/media/usa_flag.5086d5ae2e05024d662e.png",
+    "static/media/ticket_yellow.svg": "/react_graph_dashbord_front/static/media/ticket_yellow.53dca13a64f5f3dc27b1a190fdb256d8.svg",
+    "static/media/cog.svg": "/react_graph_dashbord_front/static/media/cog.96b16fae020df132d932c3b754661d0c.svg",
+    "static/media/logo_white.svg": "/react_graph_dashbord_front/static/media/logo_white.3b56fd9959c392dd8f363d5961789d8a.svg",
+    "static/media/notification_orange.svg": "/react_graph_dashbord_front/static/media/notification_orange.609996309271637c3d798df4075d96e3.svg",
+    "static/media/chart.svg": "/react_graph_dashbord_front/static/media/chart.30bea3d6d0edf2cc643ac01aead8ebb5.svg",
+    "static/media/sign_out.svg": "/react_graph_dashbord_front/static/media/sign_out.1b62b32e1b6e2f68477d15161f268864.svg",
+    "static/media/export_dark.svg": "/react_graph_dashbord_front/static/media/export_dark.276ba5dcbe73cf2a9a634476e3f40dcb.svg",
+    "static/media/bag_green.svg": "/react_graph_dashbord_front/static/media/bag_green.f704f3dd2926af8798690a29505b15ee.svg",
+    "index.html": "/react_graph_dashbord_front/index.html",
+    "static/media/card_order.svg": "/react_graph_dashbord_front/static/media/card_order.14f917092c3ccf39532d154d7ec82cd4.svg",
+    "static/media/cart.svg": "/react_graph_dashbord_front/static/media/cart.486e2e8d95ddfe0e9ed32f774789cad3.svg",
+    "static/media/card_product.svg": "/react_graph_dashbord_front/static/media/card_product.469e0cf0d7500688495c1f1557356a03.svg",
+    "static/media/bag.svg": "/react_graph_dashbord_front/static/media/bag.b92e46dfcdb2eca31f8b74a6636cbf95.svg",
+    "static/media/card_sales.svg": "/react_graph_dashbord_front/static/media/card_sales.43c9e3cda447bb9d8e7cb5b8e1493958.svg",
+    "static/media/card_customer.svg": "/react_graph_dashbord_front/static/media/card_customer.d13df363c5e7b10fc83b5c1f21e38697.svg",
+    "static/media/sun_fill.svg": "/react_graph_dashbord_front/static/media/sun_fill.37287a1496c10f729754df7b3216b2bc.svg",
+    "static/media/message.svg": "/react_graph_dashbord_front/static/media/message.6a52c6612f2ac5e42c53f664f1d5cdfb.svg",
+    "static/media/search_blue.svg": "/react_graph_dashbord_front/static/media/search_blue.0cee58abc2435e7bbab33afae67ab35a.svg",
+    "static/media/analytics.svg": "/react_graph_dashbord_front/static/media/analytics.08cce81d885c29ae05d7482789448716.svg",
+    "static/media/moon_fill.svg": "/react_graph_dashbord_front/static/media/moon_fill.023e4a2bf209491370ff3fc198ead5f5.svg",
+    "static/media/graph.svg": "/react_graph_dashbord_front/static/media/graph.2e5d25d67517afce29b1078865322f5e.svg",
+    "static/media/chevron_down_dark.svg": "/react_graph_dashbord_front/static/media/chevron_down_dark.500280a48fdb07c25c0db5a7ab59f0ee.svg",
+    "main.60a853b6.css.map": "/react_graph_dashbord_front/static/css/main.60a853b6.css.map",
+    "main.9114b0d0.js.map": "/react_graph_dashbord_front/static/js/main.9114b0d0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.60a853b6.css",
+    "static/js/main.9114b0d0.js"
+  ]
+}
