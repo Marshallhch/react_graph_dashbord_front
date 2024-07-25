@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react_graph_dashbord_front/static/css/main.60a853b6.css",
-    "main.js": "/react_graph_dashbord_front/static/js/main.9114b0d0.js",
+    "main.js": "/react_graph_dashbord_front/static/js/main.064bbfed.js",
     "static/media/profile_image.png": "/react_graph_dashbord_front/static/media/profile_image.ab45eb1d42b1faaf3d12.png",
     "static/media/usa_flag.png": "/react_graph_dashbord_front/static/media/usa_flag.5086d5ae2e05024d662e.png",
     "static/media/ticket_yellow.svg": "/react_graph_dashbord_front/static/media/ticket_yellow.53dca13a64f5f3dc27b1a190fdb256d8.svg",
@@ -27,10 +27,10 @@
     "static/media/graph.svg": "/react_graph_dashbord_front/static/media/graph.2e5d25d67517afce29b1078865322f5e.svg",
     "static/media/chevron_down_dark.svg": "/react_graph_dashbord_front/static/media/chevron_down_dark.500280a48fdb07c25c0db5a7ab59f0ee.svg",
     "main.60a853b6.css.map": "/react_graph_dashbord_front/static/css/main.60a853b6.css.map",
-    "main.9114b0d0.js.map": "/react_graph_dashbord_front/static/js/main.9114b0d0.js.map"
+    "main.064bbfed.js.map": "/react_graph_dashbord_front/static/js/main.064bbfed.js.map"
   },
   "entrypoints": [
     "static/css/main.60a853b6.css",
-    "static/js/main.9114b0d0.js"
+    "static/js/main.064bbfed.js"
   ]
 }
