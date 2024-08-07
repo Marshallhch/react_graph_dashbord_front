@@ -29,7 +29,6 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://marshallhch.github.io/react_graph_dashbord_front",
   "eslintConfig": {
     "extends": [
       "react-app",
